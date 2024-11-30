@@ -6,13 +6,12 @@ def clear_screen():
     else:
         os.system('clear')  # For macOS/Linux
 guess = ["ROCK", "PAPER", "SCISSOR"]
-gc = random.choice(guess)
-
 iw = input("Enter your Choice: ")
 iw = iw.upper()
 scorep =0
 scoren=0
 def checkinput(ip):
+    gc = random.choice(guess)
     global scorep
     global scoren
     if ip in guess:
@@ -27,14 +26,17 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Thanks for playing the game!")
                     elif ri == 2:
+                        clear_screen()
                         print("That's the spirit! Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
             elif ip == "PAPER":
@@ -46,14 +48,17 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Thanks for playing the game!")
                     elif ri == 2:
+                        clear_screen()
                         print("That's the spirit! Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
             else:
@@ -65,14 +70,17 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Haha, Hi Coward! It's nice meeting you.")
                     elif ri == 2:
+                        clear_screen()
                         print("Wanna see another loss? Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
 
@@ -85,14 +93,18 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Thanks for playing the game!")
                     elif ri == 2:
+                        clear_screen()
                         print("That's the spirit! Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
+                        clear_screen()
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
             elif ip == "SCISSOR":
@@ -104,14 +116,18 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Thanks for playing the game!")
                     elif ri == 2:
+                        clear_screen()
                         print("That's the spirit! Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
+                        clear_screen()
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
             else:
@@ -123,14 +139,18 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Haha, Hi Coward! It's nice meeting you.")
                     elif ri == 2:
+                        clear_screen()
                         print("Wanna see another loss? Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
+                        clear_screen()
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
 
@@ -143,14 +163,18 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Thanks for playing the game!")
                     elif ri == 2:
+                        clear_screen()
                         print("That's the spirit! Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
+                        clear_screen()
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
             elif ip == "ROCK":
@@ -162,14 +186,18 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Thanks for playing the game!")
                     elif ri == 2:
+                        clear_screen()
                         print("That's the spirit! Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
+                        clear_screen()
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
             else:
@@ -181,14 +209,18 @@ def checkinput(ip):
                 try:
                     ri = int(input("Choice: "))
                     if ri == 1:
+                        clear_screen()
                         print("Haha, Hi Coward! It's nice meeting you.")
                     elif ri == 2:
+                        clear_screen()
                         print("Wanna see another loss? Come on, let's play again.")
                         ip = input("Enter your Choice: ").upper()
                         checkinput(ip)
                     else:
+                        clear_screen()
                         print("Please enter 1 or 2.")
                 except ValueError:
+                    clear_screen()
                     print("Invalid input. Please enter 1 or 2.")
                     checkinput(ip)
 
