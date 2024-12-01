@@ -42,8 +42,7 @@ A simple Python-based Rock, Paper, Scissors game where you can compete against t
    python rock_paper_scissors.py
 
 ## IMAGES:
-
-
+![Screenshots](images/)
 
 
 ## 📝 License
